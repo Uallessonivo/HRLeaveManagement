@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HRLeaveManagement.Domain.Common
 {
-    internal abstract class BaseDomainEntity
+    public abstract class BaseDomainEntity
     {
         public int MyProperty { get; set; }
         public DateTime DateCreated { get; set; }

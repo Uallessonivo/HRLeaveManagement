@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HRLeaveManagement.Domain
 {
-    internal class LeaveAllocation : BaseDomainEntity
+    public class LeaveAllocation : BaseDomainEntity
     {
         public int NumberOfDays { get; set; }
         public LeaveType? LeaveType { get; set; }
