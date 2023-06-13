@@ -5,7 +5,7 @@ using HRLeaveManagement.Application.Persistence.Contracts;
 using MediatR;
 
 namespace HRLeaveManagement.Application.Features.LeaveRequests.Handlers.Queries
-{ 
+{
     public class GetLeaveRequestDetailRequestHandler : IRequestHandler<GetLeaveRequestDetailRequest, LeaveRequestDto>
     {
         private readonly ILeaveRequestRepository _leaveRequestRepository;

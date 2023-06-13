@@ -29,7 +29,7 @@ namespace HRLeaveManagement.Application.Features.LeaveRequests.Handlers.Commands
             else if (request.ChangeLeaveRequestApprovalDto != null)
             {
                 await _leaveRequestRepository.ChangeApprovalStatus(leaveRequest, request.ChangeLeaveRequestApprovalDto.Approved);
-            }            
+            }
 
             return Unit.Value;
         }
